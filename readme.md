@@ -6,7 +6,7 @@ Welcome to my GitHub repository for the Diabetes Prediction Machine Learning Pro
 
 ## Notebook
 
-- **[Diabetes_Prediction_Project.ipynb]**: Explore the dataset, preprocess the data, develop Random Forest and SVM models, evaluate their performance, and deploy the SVM model for real-time prediction based on user-input data.
+- **[Diabetes_Prediction_Project.ipynb]**(https://github.com/ramanpreet-2911/Diabetes-Prediction-Machine-Learning-Project/blob/main/Diabetes%20Prediction.ipynb): Explore the dataset, preprocess the data, develop Random Forest and SVM models, evaluate their performance, and deploy the SVM model for real-time prediction based on user-input data.
 
 ## Report
 
