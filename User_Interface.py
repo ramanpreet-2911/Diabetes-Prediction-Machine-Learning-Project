@@ -5,10 +5,10 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-model = joblib.load('diabetes_model.pkl')  # Replace 'your_model_filename.pkl' with the actual filename of your trained model
+model = joblib.load('diabetes_model.pkl')  
 
 # Load the previously fitted StandardScaler
-scaler = joblib.load('scaler.pkl')  # Replace 'your_scaler_filename.pkl' with the actual filename of your scaler
+scaler = joblib.load('scaler.pkl')  
 
 #create a function to make predictions
 
@@ -43,8 +43,6 @@ def make_prediction():
 
     except ValueError:
         result_label.config(text="Invalid input. Please enter valid numeric values.", foreground="black")
-
-# ... (rest of your code remains unchanged)
 
 # Initialize the Tkinter window
 root = tk.Tk()
